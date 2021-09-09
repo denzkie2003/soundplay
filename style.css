@@ -1,0 +1,139 @@
+body{
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	max-height: 800px;
+	background-image: url('https://dl.dropbox.com/s/s04xwhkmppn9qvu/aea3c9a98b41c612b3afed295bc88c7e.jpg?dl=0');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+/*Fixed top container*/
+div.top-con{
+	max-width: 100%;
+	margin:0;
+	padding: 10px;
+	height: auto;
+	text-shadow: 1px 1px #000000;
+	background: rgba(0, 0, 0, 0.44)
+}
+div.top-con h2.logo-name{
+	color: #fff;
+	margin: 0;
+	font-size: 25px;
+}
+/*Main container*/
+div.main{
+	max-width: 100%;
+	height: 650px;
+	margin: 0;
+	padding: 0;
+}
+div.intro-message{
+	max-width: 100%;
+	height: auto;
+	margin: 10px;
+	text-align: center;
+	background: rgba(0, 0, 0, 0.16)
+}
+div.intro-message span{
+	color: #FFFFFF;
+	width: 100%;
+	font-size: 20px;
+	text-shadow: 1px 1px 5px #000000;
+	letter-spacing: 3;
+	font-family: "Times New Roman", serif;
+}
+input[type=search]{
+	width: 70%;
+	height: 50px;
+	padding: 5px 10px 5px 10px;
+	margin: 10px;
+	background-color: rgba(0, 0, 0, 0.44);
+	border: 1px solid #6D6D6D;
+	border-radius: 15px;
+	color: #fff;
+}
+input[type=search]:focus{
+	outline: none;
+	box-shadow: 1px 1px 5px #000000;
+}
+/*Music container*/
+div.music-con{
+	margin: 0 10px 0 10px;
+	padding: 0;
+	max-width: 100%;
+	height: 330px;
+	background: rgba(0, 0, 255, 0.27);
+}
+div.music-room{
+  max-width: 100%;
+  height:auto;
+}
+div.display-sound{
+	width: 98%;
+	height: auto;
+	padding: 5px;
+	margin: 0;
+	color: #fff;
+	font-weight: bold;
+}
+div.music-display{
+	width:98%;
+	height: auto;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	margin:0;
+}
+ul{
+	width: auto;
+	height: 280px;
+	list-style-type: none;
+	padding:0;
+	margin:0;
+}
+ul li{
+	width: 100%;
+	margin: 10px;
+	height: auto;
+	display: flex;
+}
+div.play-con{
+	width: 95%;
+	height: 70px;
+}
+#title{
+	color: #fff;
+	width: 95%;
+}
+audio{
+	width: 100%;
+	height: 30px;
+	color: #fff;
+	margin: 10px 0 0 0;
+}
+div.music-display a, a:hover, a:focus, a:active, a:visited{
+  color: inherit;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  width:100%;
+}
+
+@media screen and (min-width: 701px){
+
+  .display-sound{
+    width:100%;
+  }
+  .music-display{
+    max-width:40%;
+    border: 1px solid white;
+  }
+  ul{
+    text-align: left;
+    width: 100%;
+  }
+  ul li{
+    width: 100%;
+  }
+}
